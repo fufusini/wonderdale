@@ -1,0 +1,17 @@
+{
+  "name": "roblox-persistent-world-backend",
+  "version": "1.0.0",
+  "description": "Backend de mundo persistente para juego de Roblox: guarda regiones, objetos construidos y perfiles de jugador.",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.14.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
