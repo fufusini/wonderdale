@@ -12,7 +12,7 @@ const app = express();
 app.use(express.json({ limit: '2mb' }));
 app.use(cors());
 
-const API_KEY = process.env.API_KEY || 'CAMBIA-ESTA-CLAVE';
+const API_KEY = process.env.API_KEY || 'n^!?UD>omCiza%zq';
 const PORT = process.env.PORT || 3000;
 
 // ------------------------------------------------------------------
